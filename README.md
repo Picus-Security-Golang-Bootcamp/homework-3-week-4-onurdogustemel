@@ -1,10 +1,17 @@
-# Homework 3 Week 4
+# Booklist Application
+Booklist is an application with lots of book titles that can be manipulated by the user. The application reads necessary datas from two `.csv` files containing the book and author features. Then it transfers these features to the PostgreSQL database.
 
-- `Book` ve `Author` bilgileri bir dosyadan okunacak ve DB'ye kayıt edilecek.
-- `list`, `search`, `delete(soft-delete)`, `buy` gibi `os.Args` komutları yerine DB sorguları yazılacak. 
-- Bu 2 modelle alakalı GORM sorguları yazılacak.
-  - GetByID
-  - FindByName
-  - GetBooksWithAuthor
-  - GetAuthorWithBooks etc. (GORM dökümantasyondaki sorgu çeşitlerine bakılacak bu 2 modelde uygulanacak)
-  - (Sadece 4 sorgu değil olabildiğince sorgu yazıp kendinizi geliştirin. Bu size artı olarak dönüş olacaktır.)
+# Installation
+Use the git clone command to clone the code.
+
+```
+git clone https://github.com/Picus-Security-Golang-Bootcamp/homework-3-week-4-onurdogustemel.git
+```
+
+# Contribution
+
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+# License
+
+There is no license.
